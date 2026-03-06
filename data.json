@@ -16,7 +16,7 @@
                 "CalculatedValue": "45,900",
                 "MonthlyPayment": "500",
                 "Equity": "5,000",
-                "OwnershipType": "Lease",
+                "OwnershipType": "Lease"
             }
         },
         "SuggestedVehicles": {
@@ -44,14 +44,13 @@
                 "Model": "3 Series",
                 "Year": "2026",
                 "Trim": "Base",
-            "CalculatedValue": "25,900",
+                "CalculatedValue": "25,900",
                 "MonthlyPayment": "450"
         }
-        },
-        "functional" :{
+        }
+    },
+    "functional" :{
             "UnsubscribeLink": "https://www.autocar.com/unsubscribe?recipientID=1234567890",
             "ViewInBrowserLink": "https://www.autocar.com/view?recipientID=1234567890"
         }
     }
-
-
