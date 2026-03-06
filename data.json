@@ -6,6 +6,7 @@
         "RecipientID": "1234567890",
         "SubscriptionStatus": "subscribed"},
     "RecipientData": {
+        "PromotionLink" : "https://www.autocar.com/promotions/1234567890",
         "RecipientVehicles": {
             "Vehicle1": {
                 "VehicleID": "1234567890",
@@ -27,7 +28,8 @@
                 "Year": "2024",
                 "Trim": "Base",
                 "CalculatedValue": "45,000",
-                "MonthlyPayment": "550"
+                "MonthlyPayment": "550",
+                "link": "https://www.autocar.com/vehicles/0987654321"
         },
             "Vehicle2": {
                 "VehicleID": "1122334455",
@@ -36,7 +38,8 @@
                 "Year": "2026",
                 "Trim": "Base",
                 "CalculatedValue": "70,000",
-                "MonthlyPayment": "500"
+                "MonthlyPayment": "500",
+                "link": "https://www.autocar.com/vehicles/0987654321"
         },
             "Vehicle3": {
                 "VehicleID": "6677889900",
@@ -45,7 +48,8 @@
                 "Year": "2026",
                 "Trim": "Base",
                 "CalculatedValue": "25,900",
-                "MonthlyPayment": "450"
+                "MonthlyPayment": "450",
+                "link": "https://www.autocar.com/vehicles/0987654321"
         }
         }
     },

@@ -1,0 +1,25 @@
+Hello, and thank you for reviewing my work!
+
+autocar.html represents what I'd like the template to do with Handlebars, using recipient data to fully customize the experience.
+
+autocar.variables has me quickly pasting in the variables from data.json, so you can get an idea of what the email looks like without big variable blocks.
+
+The email:
+
+The strategy for this campaign is to peak the interest of subscribers who have put work into their lease, either by prudent financial moves or through taking exceptional care of the car. So, we're presenting this opportunity as a reward.
+
+I was chosing between [Find my new BMW] and [Show my Equity] for the CTA copy. The first is more emotional, but less descriptive. Either seemed like they would spur someone to start the process of evaluating their present lease.
+
+I included the H1 line below the navigation to aid in screen reader and AI interpretation of the meaning of the email, and added a more emotive H2 below that. 
+
+Below the CTA, I added a bit more content about what positive equity is; I would likely cut a bit of this and link to a blog article.
+
+I presented three suggested vehicles, with the idea that our system would be making recommendations. Handlebars can't calculate this in an email template easily, but ideally instead of a monthly payment, we would have a percent difference to their present monthly payment. 
+
+The data:
+
+I wanted this to be a JSON-powered send. In the data.json, you can see some of the assumptions I made about what info we'd have. I did sidestep the possibility of this email being sent to those who don't have positive equity through my data assumptions.
+
+Next steps:
+
+Getting this template together with the data took plenty of time. I don't have a personal Litmus account, or else I would put this through a full suite of tests. I'm sure there is refining work to be done! However, I did include Outlook conditionals and a bulletproof button, and I've avoided techniques that often catch on Gmail App. The hero image is a transparent PNG over a background, so the sky can go dark in dark mode and still look good.
