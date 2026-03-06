@@ -1,0 +1,57 @@
+{
+    "Recipient": {
+        "FistName": "Carr",
+        "LastName": "Driver",
+        "Email": "driver@carrdriver.com",
+        "RecipientID": "1234567890",
+        "SubscriptionStatus": "subscribed"},
+    "RecipientData": {
+        "RecipientVehicles": {
+            "Vehicle1": {
+                "VehicleID": "1234567890",
+                "Make": "BMW",
+                "Model": "3 Series",
+                "Year": "2024",
+                "Trim": "Limited",
+                "CalculatedValue": "45,900",
+                "MonthlyPayment": "500",
+                "Equity": "5,000",
+                "OwnershipType": "Lease",
+            }
+        },
+        "SuggestedVehicles": {
+            "Vehicle1": {
+                "VehicleID": "0987654321",
+                "Make": "BMW", 
+                "Model": "720i",
+                "Year": "2024",
+                "Trim": "Base",
+                "CalculatedValue": "45,000",
+                "MonthlyPayment": "550"
+        },
+            "Vehicle2": {
+                "VehicleID": "1122334455",
+                "Make": "BMW", 
+                "Model": "M240i",
+                "Year": "2026",
+                "Trim": "Base",
+                "CalculatedValue": "70,000",
+                "MonthlyPayment": "500"
+        },
+            "Vehicle3": {
+                "VehicleID": "6677889900",
+                "Make": "BMW", 
+                "Model": "3 Series",
+                "Year": "2026",
+                "Trim": "Base",
+            "CalculatedValue": "25,900",
+                "MonthlyPayment": "450"
+        }
+        },
+        "functional" :{
+            "UnsubscribeLink": "https://www.autocar.com/unsubscribe?recipientID=1234567890",
+            "ViewInBrowserLink": "https://www.autocar.com/view?recipientID=1234567890"
+        }
+    }
+
+
